@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de jogos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Gerador de Tabela de Jogos</h1></header>
+    <section>
+        <div class="entrada">
+            Nome do Clube:
+            <input type="text" name="clube" id="clube"><br>
+            <input type="button" id="btnA" value="Adicionar Clube" onclick="adicionar()">
+            <input type="button" id="btnL" value="Listar Clube" onclick="listar()">
+            <input type="button" id="btnM" value="Montar tabela" onclick="montar()">
+        </div>
+        
+        <div class="respostas">
+            <h2>Listar Clubes</h2>
+            <div id="resLista"></div>     
+        </div>
+            
+        
+        <div class="respostas"><h2>Montar Tabela</h2>
+        <div id="resTabela"></div></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
